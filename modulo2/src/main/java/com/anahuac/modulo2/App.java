@@ -83,18 +83,34 @@ public class App
         //Condicionales ligadas - Múltiples condiciones
         if(var1 > var2) //Primera condicion
         {
-            System.out.println("If primer nivel");
+            System.out.println("Primera condición");
         }
-        else if(var1 < var2) //SEgunda condicion
+        else if(var1+10 < var2+5) //SEgunda condicion
         {
-            System.out.println("ELSE IF primer nivel");
+            System.out.println("SEgunda condicion");
         }
-        else if(var1 < var2) //Tercera condicion
+        else if(var1*2 < var2-2) //Tercera condicion
         {
-            System.out.println("ELSE IF primer nivel");
+            System.out.println("Tercera condicion");
         }
 
         
         System.out.println("Esta línea esta fuera del if");
+
+
+        //CICLOS
+        int cal1 = 100;
+        int cal2 = 90;
+        int cal3 = 80;
+
+        double promedio = cal1 + cal2 + cal3 / 3;
+        System.out.println("Promedio: " + promedio);
+        int i = 0;
+        for (i = 0; i < 10; i++) {
+            System.out.println("Valor de i: " + i);
+        } 
+        System.out.println("valor de i: " + i);
+
+        
     }    
 }
