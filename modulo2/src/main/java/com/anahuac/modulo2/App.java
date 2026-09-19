@@ -54,5 +54,47 @@ public class App
             System.out.println("ELSE");
            
         }
+
+         //Condicionales
+        if(var1 < var2) //True
+        {
+            System.out.println("Este es un if sin else");
+        }
+
+        //Condicionales anidadas
+        if(var1 > var2) //True
+        {
+            System.out.println("If primer nivel");
+            if(50 > 10) //True
+            {
+                System.out.println("if segundo nivel");
+               
+            }
+             else //False
+            {
+                System.out.println("ELSE segundo nivel");                
+            }
+        }
+        else //False
+        {
+            System.out.println("ELSE primer nivel");                       
+        }
+        
+        //Condicionales ligadas - Múltiples condiciones
+        if(var1 > var2) //Primera condicion
+        {
+            System.out.println("If primer nivel");
+        }
+        else if(var1 < var2) //SEgunda condicion
+        {
+            System.out.println("ELSE IF primer nivel");
+        }
+        else if(var1 < var2) //Tercera condicion
+        {
+            System.out.println("ELSE IF primer nivel");
+        }
+
+        
+        System.out.println("Esta línea esta fuera del if");
     }    
 }
