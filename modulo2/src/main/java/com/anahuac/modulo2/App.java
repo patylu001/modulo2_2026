@@ -110,7 +110,15 @@ public class App
             System.out.println("Valor de i: " + i);
         } 
         System.out.println("valor de i: " + i);
-
         
+        for (i = 0; i < 10; i++) {
+            System.out.println("Valor de i: " + i);
+            if (i == 5) {
+                System.out.println("YA encontre el número que buscaba - Break");
+                break; //rompe el ciclo
+            }
+        }
+         System.out.println("valor de i: " + i);
+
     }    
 }
