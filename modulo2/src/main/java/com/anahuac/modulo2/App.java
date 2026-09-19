@@ -38,5 +38,21 @@ public class App
         varBool = var3 < 29;
         varBool = (var3 < 29 && var1 > 10) || (varChar == 'A');
         System.out.println("Value of varBool: " + varBool);
+
+        //Condicionales
+        if(var1 > var2) //True
+        {
+            System.out.println("var1 es mayor que var2");
+            System.out.println("var1 es mayor que var2");
+            System.out.println("var1 es mayor que var2");
+            System.out.println("var1 es mayor que var2");
+        }
+        else //False
+        {
+            System.out.println("ELSE");
+            System.out.println("ELSE");
+            System.out.println("ELSE");
+           
+        }
     }    
 }
