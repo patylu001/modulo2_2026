@@ -110,7 +110,6 @@ public class App
             System.out.println("Valor de i: " + i);
         } 
         System.out.println("valor de i: " + i);
-        
         for (i = 0; i < 10; i++) {
             System.out.println("Valor de i: " + i);
             if (i == 5) {
@@ -132,7 +131,17 @@ public class App
             } else {
                 System.out.println("Intenta de nuevo.");        
             }
-        }
+        } //cierre while
+    }    //cierre main
+} // cierra clase
 
-    }    
-}
+
+
+
+
+
+
+
+
+
+
