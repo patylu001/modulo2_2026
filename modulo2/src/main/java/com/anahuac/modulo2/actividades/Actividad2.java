@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class  Actividad2{
 //GestorTareasTemplate
-    public static void main(String[] args) {
+    public static void main(String[] args) { //cambio
         Scanner scanner = new Scanner(System.in);
 
         // TODO 1: Declarar e inicializar un ArrayList de tipo String llamado 'listaTareas'
