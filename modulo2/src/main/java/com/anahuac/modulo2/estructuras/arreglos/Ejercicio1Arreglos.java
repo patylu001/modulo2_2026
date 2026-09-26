@@ -4,7 +4,13 @@ public class Ejercicio1Arreglos {
 	
 	    public static void main(String[] args)   
 	    {  
-	        int[] numbers={10,20,30,40,50}; // Arreglo de enteros
+			int variable; //DECLARACION
+
+			variable = 0; //INICIALIZANDO
+
+			int variable2 = 0; //2-1
+
+	        int[] numbers = {10,20,30,40,50}; // Arreglo de enteros
 	        
 	        int num1 = 10;
 	        int num2 = 20;
