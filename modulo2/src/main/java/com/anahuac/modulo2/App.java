@@ -121,6 +121,18 @@ public class App
          System.out.println("valor de i: " + i);
 
          //CICLO WHILE - Adivinar un número
+        int numeroSecreto = 5;
+        int numeroUsuario = 0; //condición 
+        while (numeroUsuario != numeroSecreto) { //condición 
+            System.out.println("Adivina el número secreto (1-10): "); // MOSTRAR / salida
+            java.util.Scanner scanner = new java.util.Scanner(System.in); // LEER / entrada
+            numeroUsuario = scanner.nextInt(); //condición.  // LEER 
+            if (numeroUsuario == numeroSecreto) {
+                System.out.println("Felicidades, adivinaste el número secreto!");
+            } else {
+                System.out.println("Intenta de nuevo.");        
+            }
+        }
 
     }    
 }
