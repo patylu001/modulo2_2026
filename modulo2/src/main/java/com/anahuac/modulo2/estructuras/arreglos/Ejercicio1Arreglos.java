@@ -13,9 +13,30 @@ public class Ejercicio1Arreglos {
 	        int num5 = 50;
 	        
 	          
-	        System.out.println("Element at index 0:"+numbers[0]);  
-	        System.out.println("Element at index 2:"+numbers[2]);  
-	        System.out.println("Element at index 4:"+numbers[4]);  
+	        System.out.println("Element at index 0: " + numbers[0] + " esta es otra frase	");  
+	        System.out.println("Element at index 2: " + numbers[2]);  
+	        System.out.println("Element at index 4: " + numbers[4]);  
+
+			int[] numeros = new int[3];
+			
+			System.out.println("Element at index 0: " + numeros[0]);  
+	        System.out.println("Element at index 1: " + numeros[1]);  
+	        System.out.println("Element at index 2: " + numeros[2]); 
+
+			numeros[0] = 100;
+
+			numeros[1] = 200;
+
+			numeros[2] = numeros[0] + numeros[1];
+
+			System.out.println("Element at index 0: " + numeros[0]);  
+	        System.out.println("Element at index 1: " + numeros[1]);  
+	        System.out.println("Element at index 2: " + numeros[2]);
+
+			int MAX = 10000000;
+			int[] otros = new int[MAX];
+
+			numeros[1] = -1;
 	    }
 	          
 }
