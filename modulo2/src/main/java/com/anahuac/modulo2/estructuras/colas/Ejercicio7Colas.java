@@ -12,6 +12,7 @@ public class Ejercicio7Colas {
      Queue<Integer> q = new LinkedList<>();
 
      // Adds elements {0, 1, 2, 3, 4} to
+    // 1,2,3,4,5,6,7,8,9
      // the queue
      for (int i = 0; i < 5; i++)
          q.add(i);

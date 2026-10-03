@@ -3,6 +3,7 @@ package com.anahuac.modulo2.clases;
 import java.time.LocalDate;
 import java.util.HashMap;
 
+
 public class Perro {
     //Atributos
     private double peso;
@@ -126,6 +127,8 @@ public class Perro {
          LocalDate today = LocalDate.now();
          cartillaVacunacion.put(nombreVacuna, today);        
     }
+
+
 
 
 }
