@@ -1,4 +1,4 @@
-package com.anahuac.mayab.modulo1.sesion5;
+package com.anahuac.modulo2.interfases;
 
 import java.io.FileWriter;
 import java.io.IOException;
