@@ -10,7 +10,9 @@ public class PruebaPerro {
         ArrayList<Perro> listaPerros = new ArrayList<Perro>();
         
         Perro miPerro = new Perro("Neron", "Paty", "Shar pei");
-        
+       /*  miPerro.setNombre("Neron");
+        miPerro.setNombreDuenio("Paty");
+        miPerro.setRaza("Shar pei");*/
 
         listaPerros.add(miPerro);
 

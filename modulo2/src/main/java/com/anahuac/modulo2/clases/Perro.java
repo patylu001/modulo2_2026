@@ -12,17 +12,69 @@ public class Perro {
     private String nombre;
     private String nombreDuenio;
     private HashMap<String, LocalDate> cartillaVacunacion = new HashMap<>();
+       //Constructor
+       //public Perro(){}
 
-    //Constructor
+     public Perro(String nombre, String nombreDuenio, String raza) {
+        this.nombre = nombre;
+        this.nombreDuenio = nombreDuenio;
+        this.raza = raza;
+        
+    } 
+   
+    
+    
+  public Perro(double peso, String raza, int edad, char genero, String nombre, String nombreDuenio,
+            HashMap<String, LocalDate> cartillaVacunacion) {
+        this.peso = peso;
+        this.raza = raza;
+        this.edad = edad;
+        this.genero = genero;
+        this.nombre = nombre;
+        this.nombreDuenio = nombreDuenio;
+        this.cartillaVacunacion = cartillaVacunacion;
+    }
 
-    public Perro(String nombre, String nombreDuenio, String raza) {
+
+
+  public Perro(String nombre) {
+        this.nombre = nombre;
+    }
+
+
+
+  public void otroPerro(String nombre, String nombreDuenio, String raza) {
         this.nombre = nombre;
         this.nombreDuenio = nombreDuenio;
         this.raza = raza;
         
     }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    public void setGenero(char genero) {
+        this.genero = genero;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setNombreDuenio(String nombreDuenio) {
+        this.nombreDuenio = nombreDuenio;
+    }
+    public void setCartillaVacunacion(HashMap<String, LocalDate> cartillaVacunacion) {
+        this.cartillaVacunacion = cartillaVacunacion;
+    }
+
     
 
+ 
     //Métodos
     public double getPeso() {
         return peso;
